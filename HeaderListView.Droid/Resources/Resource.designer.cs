@@ -57,6 +57,7 @@ namespace HeaderListView.Droid
 			global::Common.Droid.Resource.Animation.abc_slide_in_top = global::HeaderListView.Droid.Resource.Animation.abc_slide_in_top;
 			global::Common.Droid.Resource.Animation.abc_slide_out_bottom = global::HeaderListView.Droid.Resource.Animation.abc_slide_out_bottom;
 			global::Common.Droid.Resource.Animation.abc_slide_out_top = global::HeaderListView.Droid.Resource.Animation.abc_slide_out_top;
+			global::Common.Droid.Resource.Attribute.HeaderTemplate = global::HeaderListView.Droid.Resource.Attribute.HeaderTemplate;
 			global::Common.Droid.Resource.Attribute.MvxBind = global::HeaderListView.Droid.Resource.Attribute.MvxBind;
 			global::Common.Droid.Resource.Attribute.MvxDropDownItemTemplate = global::HeaderListView.Droid.Resource.Attribute.MvxDropDownItemTemplate;
 			global::Common.Droid.Resource.Attribute.MvxGroupItemTemplate = global::HeaderListView.Droid.Resource.Attribute.MvxGroupItemTemplate;
@@ -1026,6 +1027,8 @@ namespace HeaderListView.Droid
 			global::Common.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::HeaderListView.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
 			global::Common.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::HeaderListView.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
 			global::Common.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::HeaderListView.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Common.Droid.Resource.Styleable.HeaderListView = global::HeaderListView.Droid.Resource.Styleable.HeaderListView;
+			global::Common.Droid.Resource.Styleable.HeaderListView_HeaderTemplate = global::HeaderListView.Droid.Resource.Styleable.HeaderListView_HeaderTemplate;
 			global::Common.Droid.Resource.Styleable.LinearLayoutCompat = global::HeaderListView.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::Common.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::HeaderListView.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::Common.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::HeaderListView.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -1339,25 +1342,28 @@ namespace HeaderListView.Droid
 		{
 			
 			// aapt resource value: 0x7f0100ce
-			public const int MvxBind = 2130772174;
-			
-			// aapt resource value: 0x7f0100d2
-			public const int MvxDropDownItemTemplate = 2130772178;
-			
-			// aapt resource value: 0x7f0100d3
-			public const int MvxGroupItemTemplate = 2130772179;
-			
-			// aapt resource value: 0x7f0100d1
-			public const int MvxItemTemplate = 2130772177;
+			public const int HeaderTemplate = 2130772174;
 			
 			// aapt resource value: 0x7f0100cf
-			public const int MvxLang = 2130772175;
+			public const int MvxBind = 2130772175;
+			
+			// aapt resource value: 0x7f0100d3
+			public const int MvxDropDownItemTemplate = 2130772179;
 			
 			// aapt resource value: 0x7f0100d4
-			public const int MvxSource = 2130772180;
+			public const int MvxGroupItemTemplate = 2130772180;
+			
+			// aapt resource value: 0x7f0100d2
+			public const int MvxItemTemplate = 2130772178;
 			
 			// aapt resource value: 0x7f0100d0
-			public const int MvxTemplate = 2130772176;
+			public const int MvxLang = 2130772176;
+			
+			// aapt resource value: 0x7f0100d5
+			public const int MvxSource = 2130772181;
+			
+			// aapt resource value: 0x7f0100d1
+			public const int MvxTemplate = 2130772177;
 			
 			// aapt resource value: 0x7f010063
 			public const int actionBarDivider = 2130772067;
@@ -4459,6 +4465,13 @@ namespace HeaderListView.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
+			public static int[] HeaderListView = new int[]
+			{
+					2130772174};
+			
+			// aapt resource value: 0
+			public const int HeaderListView_HeaderTemplate = 0;
+			
 			public static int[] LinearLayoutCompat = new int[]
 			{
 					16842927,
@@ -4663,8 +4676,8 @@ namespace HeaderListView.Droid
 			
 			public static int[] MvxBinding = new int[]
 			{
-					2130772174,
-					2130772175};
+					2130772175,
+					2130772176};
 			
 			// aapt resource value: 0
 			public const int MvxBinding_MvxBind = 0;
@@ -4674,29 +4687,29 @@ namespace HeaderListView.Droid
 			
 			public static int[] MvxControl = new int[]
 			{
-					2130772176};
+					2130772177};
 			
 			// aapt resource value: 0
 			public const int MvxControl_MvxTemplate = 0;
 			
 			public static int[] MvxExpandableListView = new int[]
 			{
-					2130772179};
+					2130772180};
 			
 			// aapt resource value: 0
 			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
 			
 			public static int[] MvxImageView = new int[]
 			{
-					2130772180};
+					2130772181};
 			
 			// aapt resource value: 0
 			public const int MvxImageView_MvxSource = 0;
 			
 			public static int[] MvxListView = new int[]
 			{
-					2130772177,
-					2130772178};
+					2130772178,
+					2130772179};
 			
 			// aapt resource value: 1
 			public const int MvxListView_MvxDropDownItemTemplate = 1;

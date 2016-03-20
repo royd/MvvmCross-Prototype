@@ -70,6 +70,9 @@ namespace Common.Droid
 		public partial class Attribute
 		{
 			
+			// aapt resource value: 0x7f0100d5
+			public static int HeaderTemplate = 2130772181;
+			
 			// aapt resource value: 0x7f0100ce
 			public static int MvxBind = 2130772174;
 			
@@ -3162,6 +3165,13 @@ namespace Common.Droid
 			
 			// aapt resource value: 7
 			public static int DrawerArrowToggle_thickness = 7;
+			
+			public static int[] HeaderListView = new int[]
+			{
+					2130772181};
+			
+			// aapt resource value: 0
+			public static int HeaderListView_HeaderTemplate = 0;
 			
 			public static int[] LinearLayoutCompat = new int[]
 			{
