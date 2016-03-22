@@ -1,13 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeaderListView.Droid", "HeaderListView.Droid\HeaderListView.Droid.csproj", "{38967994-A3BD-4DA5-AEE4-3F1EC1E6453A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Droid", "Common.Droid\Common.Droid.csproj", "{A84F8214-ECE7-4A34-AA8F-D8A5DCE3706A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Core", "Common.Core\Common.Core.csproj", "{46886E6E-3FF6-4220-AB17-6CEDBD2046E2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeaderListView.Core", "HeaderListView.Core\HeaderListView.Core.csproj", "{F61FCE11-F8D3-4FEF-B55D-EC887514B8A9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonSample.Core", "CommonSample.Core\CommonSample.Core.csproj", "{4E3BA001-E339-469F-AC5B-570C43BC5D1E}"
 EndProject
@@ -21,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{38967994-A3BD-4DA5-AEE4-3F1EC1E6453A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{38967994-A3BD-4DA5-AEE4-3F1EC1E6453A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{38967994-A3BD-4DA5-AEE4-3F1EC1E6453A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{38967994-A3BD-4DA5-AEE4-3F1EC1E6453A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{46886E6E-3FF6-4220-AB17-6CEDBD2046E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{46886E6E-3FF6-4220-AB17-6CEDBD2046E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46886E6E-3FF6-4220-AB17-6CEDBD2046E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,9 +37,5 @@ Global
 		{C839576A-40F3-45F9-8BE6-4A0EE9913A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C839576A-40F3-45F9-8BE6-4A0EE9913A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C839576A-40F3-45F9-8BE6-4A0EE9913A98}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F61FCE11-F8D3-4FEF-B55D-EC887514B8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F61FCE11-F8D3-4FEF-B55D-EC887514B8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F61FCE11-F8D3-4FEF-B55D-EC887514B8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F61FCE11-F8D3-4FEF-B55D-EC887514B8A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
