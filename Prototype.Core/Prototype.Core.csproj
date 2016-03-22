@@ -4,10 +4,10 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{F61FCE11-F8D3-4FEF-B55D-EC887514B8A9}</ProjectGuid>
+    <ProjectGuid>{C839576A-40F3-45F9-8BE6-4A0EE9913A98}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>HeaderListView.Core</RootNamespace>
-    <AssemblyName>HeaderListView.Core</AssemblyName>
+    <RootNamespace>Prototype.Core</RootNamespace>
+    <AssemblyName>Prototype.Core</AssemblyName>
     <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
@@ -32,6 +32,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="OurResources.Designer.cs">
+      <DependentUpon>OurResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\HeaderListViewViewModel.cs" />
+    <Compile Include="ViewModels\MainFeatureViewModel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
@@ -63,5 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="OurResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>OurResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
