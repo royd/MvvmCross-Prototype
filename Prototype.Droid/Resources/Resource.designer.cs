@@ -65,6 +65,8 @@ namespace Prototype.Droid
 			global::Common.Droid.Resource.Attribute.MvxLang = global::Prototype.Droid.Resource.Attribute.MvxLang;
 			global::Common.Droid.Resource.Attribute.MvxSource = global::Prototype.Droid.Resource.Attribute.MvxSource;
 			global::Common.Droid.Resource.Attribute.MvxTemplate = global::Prototype.Droid.Resource.Attribute.MvxTemplate;
+			global::Common.Droid.Resource.Attribute.SwipeLeftIndex = global::Prototype.Droid.Resource.Attribute.SwipeLeftIndex;
+			global::Common.Droid.Resource.Attribute.SwipeRightIndex = global::Prototype.Droid.Resource.Attribute.SwipeRightIndex;
 			global::Common.Droid.Resource.Attribute.actionBarDivider = global::Prototype.Droid.Resource.Attribute.actionBarDivider;
 			global::Common.Droid.Resource.Attribute.actionBarItemBackground = global::Prototype.Droid.Resource.Attribute.actionBarItemBackground;
 			global::Common.Droid.Resource.Attribute.actionBarPopupTheme = global::Prototype.Droid.Resource.Attribute.actionBarPopupTheme;
@@ -1121,6 +1123,9 @@ namespace Prototype.Droid
 			global::Common.Droid.Resource.Styleable.Spinner_android_popupBackground = global::Prototype.Droid.Resource.Styleable.Spinner_android_popupBackground;
 			global::Common.Droid.Resource.Styleable.Spinner_android_prompt = global::Prototype.Droid.Resource.Styleable.Spinner_android_prompt;
 			global::Common.Droid.Resource.Styleable.Spinner_popupTheme = global::Prototype.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Common.Droid.Resource.Styleable.SwipeFrameLayout = global::Prototype.Droid.Resource.Styleable.SwipeFrameLayout;
+			global::Common.Droid.Resource.Styleable.SwipeFrameLayout_SwipeLeftIndex = global::Prototype.Droid.Resource.Styleable.SwipeFrameLayout_SwipeLeftIndex;
+			global::Common.Droid.Resource.Styleable.SwipeFrameLayout_SwipeRightIndex = global::Prototype.Droid.Resource.Styleable.SwipeFrameLayout_SwipeRightIndex;
 			global::Common.Droid.Resource.Styleable.SwitchCompat = global::Prototype.Droid.Resource.Styleable.SwitchCompat;
 			global::Common.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::Prototype.Droid.Resource.Styleable.SwitchCompat_android_textOff;
 			global::Common.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::Prototype.Droid.Resource.Styleable.SwitchCompat_android_textOn;
@@ -1344,26 +1349,32 @@ namespace Prototype.Droid
 			// aapt resource value: 0x7f0100ce
 			public const int HeaderTemplate = 2130772174;
 			
-			// aapt resource value: 0x7f0100cf
-			public const int MvxBind = 2130772175;
-			
-			// aapt resource value: 0x7f0100d3
-			public const int MvxDropDownItemTemplate = 2130772179;
-			
-			// aapt resource value: 0x7f0100d4
-			public const int MvxGroupItemTemplate = 2130772180;
-			
-			// aapt resource value: 0x7f0100d2
-			public const int MvxItemTemplate = 2130772178;
-			
-			// aapt resource value: 0x7f0100d0
-			public const int MvxLang = 2130772176;
+			// aapt resource value: 0x7f0100d1
+			public const int MvxBind = 2130772177;
 			
 			// aapt resource value: 0x7f0100d5
-			public const int MvxSource = 2130772181;
+			public const int MvxDropDownItemTemplate = 2130772181;
 			
-			// aapt resource value: 0x7f0100d1
-			public const int MvxTemplate = 2130772177;
+			// aapt resource value: 0x7f0100d6
+			public const int MvxGroupItemTemplate = 2130772182;
+			
+			// aapt resource value: 0x7f0100d4
+			public const int MvxItemTemplate = 2130772180;
+			
+			// aapt resource value: 0x7f0100d2
+			public const int MvxLang = 2130772178;
+			
+			// aapt resource value: 0x7f0100d7
+			public const int MvxSource = 2130772183;
+			
+			// aapt resource value: 0x7f0100d3
+			public const int MvxTemplate = 2130772179;
+			
+			// aapt resource value: 0x7f0100cf
+			public const int SwipeLeftIndex = 2130772175;
+			
+			// aapt resource value: 0x7f0100d0
+			public const int SwipeRightIndex = 2130772176;
 			
 			// aapt resource value: 0x7f010063
 			public const int actionBarDivider = 2130772067;
@@ -2810,6 +2821,9 @@ namespace Prototype.Droid
 			// aapt resource value: 0x7f0c0029
 			public const int default_activity_button = 2131492905;
 			
+			// aapt resource value: 0x7f0c0060
+			public const int delete = 2131492960;
+			
 			// aapt resource value: 0x7f0c000e
 			public const int disableHome = 2131492878;
 			
@@ -2990,6 +3004,9 @@ namespace Prototype.Droid
 			// aapt resource value: 0x7f0c0030
 			public const int topPanel = 2131492912;
 			
+			// aapt resource value: 0x7f0c005f
+			public const int undo = 2131492959;
+			
 			// aapt resource value: 0x7f0c0008
 			public const int up = 2131492872;
 			
@@ -3165,6 +3182,12 @@ namespace Prototype.Droid
 			
 			// aapt resource value: 0x7f040028
 			public const int support_simple_spinner_dropdown_item = 2130968616;
+			
+			// aapt resource value: 0x7f040029
+			public const int SwipeFrameLayoutListItem = 2130968617;
+			
+			// aapt resource value: 0x7f04002a
+			public const int SwipeFrameLayoutView = 2130968618;
 			
 			static Layout()
 			{
@@ -4682,8 +4705,8 @@ namespace Prototype.Droid
 			
 			public static int[] MvxBinding = new int[]
 			{
-					2130772175,
-					2130772176};
+					2130772177,
+					2130772178};
 			
 			// aapt resource value: 0
 			public const int MvxBinding_MvxBind = 0;
@@ -4693,29 +4716,29 @@ namespace Prototype.Droid
 			
 			public static int[] MvxControl = new int[]
 			{
-					2130772177};
+					2130772179};
 			
 			// aapt resource value: 0
 			public const int MvxControl_MvxTemplate = 0;
 			
 			public static int[] MvxExpandableListView = new int[]
 			{
-					2130772180};
+					2130772182};
 			
 			// aapt resource value: 0
 			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
 			
 			public static int[] MvxImageView = new int[]
 			{
-					2130772181};
+					2130772183};
 			
 			// aapt resource value: 0
 			public const int MvxImageView_MvxSource = 0;
 			
 			public static int[] MvxListView = new int[]
 			{
-					2130772178,
-					2130772179};
+					2130772180,
+					2130772181};
 			
 			// aapt resource value: 1
 			public const int MvxListView_MvxDropDownItemTemplate = 1;
@@ -4830,6 +4853,17 @@ namespace Prototype.Droid
 			
 			// aapt resource value: 3
 			public const int Spinner_popupTheme = 3;
+			
+			public static int[] SwipeFrameLayout = new int[]
+			{
+					2130772175,
+					2130772176};
+			
+			// aapt resource value: 0
+			public const int SwipeFrameLayout_SwipeLeftIndex = 0;
+			
+			// aapt resource value: 1
+			public const int SwipeFrameLayout_SwipeRightIndex = 1;
 			
 			public static int[] SwitchCompat = new int[]
 			{

@@ -94,6 +94,12 @@ namespace Common.Droid
 			// aapt resource value: 0x7f0100d0
 			public static int MvxTemplate = 2130772176;
 			
+			// aapt resource value: 0x7f0100d6
+			public static int SwipeLeftIndex = 2130772182;
+			
+			// aapt resource value: 0x7f0100d7
+			public static int SwipeRightIndex = 2130772183;
+			
 			// aapt resource value: 0x7f010063
 			public static int actionBarDivider = 2130772067;
 			
@@ -3525,6 +3531,17 @@ namespace Common.Droid
 			
 			// aapt resource value: 3
 			public static int Spinner_popupTheme = 3;
+			
+			public static int[] SwipeFrameLayout = new int[]
+			{
+					2130772182,
+					2130772183};
+			
+			// aapt resource value: 0
+			public static int SwipeFrameLayout_SwipeLeftIndex = 0;
+			
+			// aapt resource value: 1
+			public static int SwipeFrameLayout_SwipeRightIndex = 1;
 			
 			public static int[] SwitchCompat = new int[]
 			{

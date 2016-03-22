@@ -21,4 +21,7 @@
 	<data name="HeaderListViewTitle" xml:space="preserve">
 		<value>List header</value>
 	</data>
+	<data name="SwipeFrameLayoutFeatureTitle" xml:space="preserve">
+		<value>SwipeFrameLayout</value>
+	</data>
 </root>

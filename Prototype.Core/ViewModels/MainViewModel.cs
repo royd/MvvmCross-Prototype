@@ -31,7 +31,8 @@ namespace Prototype.Core.ViewModels
 
 		static readonly ReadOnlyCollection<MainFeatureViewModel> s_features = new ReadOnlyCollection<MainFeatureViewModel>(new List<MainFeatureViewModel>
 		{
-			new MainFeatureViewModel(OurResources.HeaderListViewFeatureTitle, typeof(HeaderListViewViewModel))
+			new MainFeatureViewModel(OurResources.HeaderListViewFeatureTitle, typeof(HeaderListViewViewModel)),
+			new MainFeatureViewModel(OurResources.SwipeFrameLayoutFeatureTitle, typeof(SwipeFrameLayoutViewModel))
 		});
 
 		ICommand m_showFeatureCommand;

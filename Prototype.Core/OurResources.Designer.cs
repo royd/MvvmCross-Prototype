@@ -64,5 +64,11 @@ namespace Prototype.Core {
                 return ResourceManager.GetString("HeaderListViewTitle", resourceCulture);
             }
         }
+        
+        public static string SwipeFrameLayoutFeatureTitle {
+            get {
+                return ResourceManager.GetString("SwipeFrameLayoutFeatureTitle", resourceCulture);
+            }
+        }
     }
 }

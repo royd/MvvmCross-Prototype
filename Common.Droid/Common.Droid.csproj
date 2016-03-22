@@ -90,6 +90,7 @@
     <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
     <Compile Include="Views\HeaderAdapter.cs" />
     <Compile Include="Views\HeaderListView.cs" />
+    <Compile Include="Views\SwipeFrameLayout.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

@@ -94,6 +94,7 @@
     <Compile Include="Setup.cs" />
     <Compile Include="Views\MainActivity.cs" />
     <Compile Include="Views\HeaderListViewActivity.cs" />
+    <Compile Include="Views\SwipeFrameLayoutActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -112,6 +113,8 @@
     <AndroidResource Include="Resources\layout\MainFeatureListItem.axml" />
     <AndroidResource Include="Resources\layout\HeaderListView.axml" />
     <AndroidResource Include="Resources\layout\HeaderListViewListHeader.axml" />
+    <AndroidResource Include="Resources\layout\SwipeFrameLayoutListItem.axml" />
+    <AndroidResource Include="Resources\layout\SwipeFrameLayoutView.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
