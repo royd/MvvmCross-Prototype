@@ -38,6 +38,7 @@
     <Compile Include="ViewModels\HeaderListViewViewModel.cs" />
     <Compile Include="ViewModels\MainFeatureViewModel.cs" />
     <Compile Include="ViewModels\SwipeFrameLayoutViewModel.cs" />
+    <Compile Include="App.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
