@@ -1,6 +1,8 @@
 ﻿using System;
 using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform;
 using MvvmCross.Platform.IoC;
+using Prototype.Core;
 using Prototype.Core.ViewModels;
 
 namespace Prototype.Droid
@@ -15,6 +17,8 @@ namespace Prototype.Droid
 				.RegisterAsLazySingleton();
 
 			RegisterAppStart<MainViewModel>();
+
+			Mvx.RegisterSingleton<ItemManager>(new ItemManager());
 		}
 	}
 }

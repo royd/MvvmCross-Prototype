@@ -70,5 +70,23 @@ namespace Prototype.Core {
                 return ResourceManager.GetString("SwipeFrameLayoutFeatureTitle", resourceCulture);
             }
         }
+        
+        public static string Deleted {
+            get {
+                return ResourceManager.GetString("Deleted", resourceCulture);
+            }
+        }
+        
+        public static string Delete {
+            get {
+                return ResourceManager.GetString("Delete", resourceCulture);
+            }
+        }
+        
+        public static string UndoButtonText {
+            get {
+                return ResourceManager.GetString("UndoButtonText", resourceCulture);
+            }
+        }
     }
 }

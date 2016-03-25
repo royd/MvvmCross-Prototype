@@ -2,43 +2,37 @@
 <SwipeFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:local="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="100dp"
-    android:background="@android:color/black"
+    android:layout_height="wrap_content"
     local:SwipeLeftIndex="0"
-    local:SwipeRightIndex="1">
+    local:MvxBind="SwipedLeft DeleteCommand">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@android:color/holo_red_light">
         <TextView
-            android:id="@+id/undo"
+            android:id="@+id/deleted"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:gravity="center"
-            android:padding="8dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
             android:textAllCaps="true"
             android:textColor="@android:color/white"
-            android:text="Undo" />
-        <TextView
-            android:id="@+id/delete"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_alignParentLeft="true"
-            android:gravity="center"
-            android:padding="8dp"
-            android:textAllCaps="true"
-            android:textColor="@android:color/white"
-            android:text="Deleted" />
+            android:background="@android:color/holo_red_light"
+            local:MvxBind="Text DeleteText" />
     </RelativeLayout>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/holo_blue_bright"
-        android:text="test" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/holo_blue_dark"
-        local:MvxBind="Text" />
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:textAllCaps="true"
+        android:background="@android:color/background_light"
+        local:MvxBind="Text Item.Value" />
 </SwipeFrameLayout>

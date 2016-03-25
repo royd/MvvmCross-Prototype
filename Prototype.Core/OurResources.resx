@@ -24,4 +24,13 @@
 	<data name="SwipeFrameLayoutFeatureTitle" xml:space="preserve">
 		<value>SwipeFrameLayout</value>
 	</data>
+	<data name="Deleted" xml:space="preserve">
+		<value>Deleted</value>
+	</data>
+	<data name="Delete" xml:space="preserve">
+		<value>Delete</value>
+	</data>
+	<data name="UndoButtonText" xml:space="preserve">
+		<value>Undo</value>
+	</data>
 </root>

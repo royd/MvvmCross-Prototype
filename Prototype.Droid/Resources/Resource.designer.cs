@@ -2821,8 +2821,8 @@ namespace Prototype.Droid
 			// aapt resource value: 0x7f0c0029
 			public const int default_activity_button = 2131492905;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int delete = 2131492960;
+			// aapt resource value: 0x7f0c005f
+			public const int deleted = 2131492959;
 			
 			// aapt resource value: 0x7f0c000e
 			public const int disableHome = 2131492878;
@@ -2865,6 +2865,9 @@ namespace Prototype.Droid
 			
 			// aapt resource value: 0x7f0c005b
 			public const int line3 = 2131492955;
+			
+			// aapt resource value: 0x7f0c0060
+			public const int list = 2131492960;
 			
 			// aapt resource value: 0x7f0c000b
 			public const int listMode = 2131492875;
@@ -3003,9 +3006,6 @@ namespace Prototype.Droid
 			
 			// aapt resource value: 0x7f0c0030
 			public const int topPanel = 2131492912;
-			
-			// aapt resource value: 0x7f0c005f
-			public const int undo = 2131492959;
 			
 			// aapt resource value: 0x7f0c0008
 			public const int up = 2131492872;
