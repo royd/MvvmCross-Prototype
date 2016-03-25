@@ -116,11 +116,13 @@ namespace Common.Droid.Views
 
 					if (Math.Abs(x) >= c_swipeThreshold)
 					{
-						if (SwipedLeft != null)
-							SwipedLeft(this, new EventArgs());
-
 						m_isSwiped = true;
-						m_swipeView.Animate().TranslationX(0 - Width);
+						m_swipeView.Animate().TranslationX(0 - Width).WithEndAction(new Java.Lang.Runnable(() =>
+						{
+							var handler = SwipedLeft;
+							if (handler != null)
+								handler(this, new EventArgs());
+						}));
 					}
 					else
 					{
@@ -136,11 +138,13 @@ namespace Common.Droid.Views
 
 					if (Math.Abs(x) >= c_swipeThreshold)
 					{
-						if (SwipedRight != null)
-							SwipedRight(this, new EventArgs());
-
 						m_isSwiped = true;
-						m_swipeView.Animate().TranslationX(Width);
+						m_swipeView.Animate().TranslationX(Width).WithEndAction(new Java.Lang.Runnable(() =>
+						{
+							var handler = SwipedRight;
+							if (handler != null)
+								handler(this, new EventArgs());
+						}));
 					}
 					else
 					{
