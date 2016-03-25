@@ -171,7 +171,7 @@ namespace Common.Droid.Views
 			}
 		}
 
-		const float c_swipeThreshold = 300;
+		const float c_swipeThreshold = 500;
 
 		View m_swipeView;
 		int m_swipeLeftIndex;
