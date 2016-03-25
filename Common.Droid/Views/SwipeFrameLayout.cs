@@ -158,9 +158,9 @@ namespace Common.Droid.Views
 			return handled;
 		}
 
-		public EventHandler SwipedLeft;
+		public event EventHandler SwipedLeft;
 
-		public EventHandler SwipedRight;
+		public event EventHandler SwipedRight;
 
 		private void SetChildVisibile(View visibleChild)
 		{
