@@ -47,7 +47,7 @@ namespace Common.Droid.Views
 			if (HeaderTemplateId == 0)
 				item = base.GetRawItem(position);
 			else if (position == 0)
-				item = m_bindingContext;
+				item = null;
 			else
 				item = base.GetRawItem(position - 1);
 
